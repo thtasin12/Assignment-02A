@@ -257,3 +257,85 @@ header {
     color:#E0A000;
     font-weight:600;
 }
+
+.viewer-experience{
+    width:95%;
+    margin:100px auto;
+    border-radius:18px;
+    overflow:hidden;
+    background:url("./assets/background-ai.png");
+    background-size:cover;
+    background-position:center;
+}
+
+.viewer-overlay{
+    padding:80px 60px;
+}
+
+.viewer-heading{
+    text-align:center;
+}
+
+.viewer-tag{
+    display:inline-block;
+    color:#F6C42D;
+    font-size:14px;
+    font-weight:600;
+    letter-spacing:4px;
+    margin-bottom:20px;
+}
+
+.viewer-heading h2{
+    color:#fff;
+    font-size:56px;
+    line-height:1.1;
+    margin-bottom:25px;
+}
+
+.viewer-heading p{
+    max-width:720px;
+    margin:auto;
+    color:#D3D8E1;
+    font-size:17px;
+    line-height:1.8;
+}
+
+.viewer-cards{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:24px;
+    margin:70px 0;
+}
+
+.viewer-card{
+    background:black;
+    border:none;
+    border-radius:18px;
+    padding:45px 30px;
+    text-align:center;
+}
+
+.viewer-card i{
+    color:#F6C42D;
+    font-size:50px;
+    margin-bottom:28px;
+}
+
+.viewer-card h3{
+    color:#fff;
+    font-size:20px;
+    font-weight: 700;
+    margin-bottom:18px;
+}
+
+.viewer-card p{
+    color:#D4D9E2;
+    line-height:1.8;
+    font-size:15px;
+}
+
+.viewer-btn{
+    display:flex;
+    margin:auto;
+    padding: 18px 20px;
+}
